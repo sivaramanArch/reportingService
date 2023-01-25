@@ -22,6 +22,6 @@ public class ReportingServiceApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		// orderReportingService.insertRecordsIntoOrderTable(100);
+		 orderReportingService.insertRecordsIntoOrderTable(1000);
 	}
 }
